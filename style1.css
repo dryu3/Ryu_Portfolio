@@ -23,24 +23,42 @@ div > .banner {
 /* Name Heading */
 .name1 {
   text-align: center;
-  color:rgb(200, 218, 201);
+  padding: 15px;
+  color:rgb(255, 255, 255);
   font-family: "Montserrat";
   font-size: 50;
+  z-index: 20;
 }
 .under1 {
   text-align: center;
-  color: rgb(200, 218, 201);
+  color: rgb(255, 255, 255);
   font-family: "Montserrat";
   font-size: 15;
+  z-index: 10;
 }
 
+.box1 {
+  height: 120px;
+  width: 350px;
+  background-color: rgb(0, 0, 0, .5); 
+  backdrop-filter: blur(5px);
+  z-index: 0;
+}
+
+
+#seclabel {
+  text-align: center;
+  padding: 20px;
+  color: rgb(200, 218, 201);
+  font-size: 40;
+}
 
 /* Navbar */
 #navbar {
     position: sticky;
     top: 0;
     background-color: #3a5485;
-    z-index: 1;
+    z-index: 1000;
     display: flex;
     flex-direction: row;
     height: 50px;
@@ -69,14 +87,7 @@ div > .banner {
   background-color: #04AA6D;
   color: white;
   }
-header {
-  padding:10px;
-  display: flex;
-  justify-content: space-between;
-}
 #space {
   height: 1000px
 }
 
-
-  
