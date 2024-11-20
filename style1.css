@@ -1,52 +1,82 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat";
   }
+  html {
+    background-color: #222222;
+  }
+
+
+/* Banner */
+div > .banner {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;    /* Center vertically */
+  background-image: url(media/ut_austin_background_banner.ico);
+  background-size: 100%;
+  background-position: 50% 38%;
+  height: 30vh;
+}
+
+/* Name Heading */
+.name1 {
+  text-align: center;
+  color:rgb(200, 218, 201);
+  font-family: "Montserrat";
+  font-size: 50;
+}
+.under1 {
+  text-align: center;
+  color: rgb(200, 218, 201);
+  font-family: "Montserrat";
+  font-size: 15;
+}
+
 
 /* Navbar */
 #navbar {
     position: sticky;
     top: 0;
-    overflow: hidden;
     background-color: #3a5485;
     z-index: 1;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    height: 50px;
+    align-content: center;
 }
-li {
-    list-style: none;
-}
+
 /* Navbar links */
 #navbar a {
     display: flex;
     color: #ffffff;
     padding: 14px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 20px;
     flex-direction: row;
-
+    text-align: center;
+    align-items: center;
+    font-family: "Montserrat"
   }
-  /* Hover */
-  #navbar a:hover {
-    background-color: #94b5f3;
-    color: rgb(255, 251, 251);
+/* Hover */
+#navbar a:hover {
+  background-color: #94b5f3;
+  color: rgb(255, 251, 251);
+}
+/* Active */
+#navbar a:focus {
+  background-color: #04AA6D;
+  color: white;
   }
-  /* Active */
-  #navbar a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  header {
-    padding:10px;
-    display: flex;
-    justify-content: space-between;
-  }
-  #space {
-    height: 1000px
-  }
+header {
+  padding:10px;
+  display: flex;
+  justify-content: space-between;
+}
+#space {
+  height: 1000px
+}
 
 
   
