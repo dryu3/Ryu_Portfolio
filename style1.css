@@ -20,6 +20,7 @@ div > .banner {
   height: 30vh;
 }
 
+
 /* Name Heading */
 .name1 {
   text-align: center;
@@ -45,6 +46,9 @@ div > .banner {
   z-index: 0;
 }
 
+#about {
+  padding-top: 50px;
+}
 
 #seclabel {
   text-align: center;
@@ -87,7 +91,6 @@ div > .banner {
   background-color: #04AA6D;
   color: white;
   }
-#space {
-  height: 1000px
-}
+
+
 
