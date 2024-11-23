@@ -9,17 +9,29 @@ html {
   scroll-behavior: smooth;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2196F3;
+  height: 100vh;
+}
+.container1{
+  position: sticky;
+  display: flex;
+  z-index: 1000;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
 /* Navbar */
 #navbar {
-  position: sticky;
-  top: 0;
-  background-color: rgb(200, 218, 201);
   z-index: 1000;
-  display: flex;
-  flex-direction: row;
+  display: block;
   height: 50px;
-  align-content: center;
-  justify-content: center;
+  align-items: center;
 }
 #navbar a {
   display: flex;
@@ -41,55 +53,5 @@ background-color: #04AA6D;
 color: white;
 }
 
-
-
-
-
-/* About Section */
-#about {
-padding-top: 50px;
-height: 1000px;
-}
-.container1 {
-display: grid;
-grid-template-columns: 1fr 3fr;
-width: 100%;
-height: fit-content;
-}
-.container_half {
-display: flex;
-justify-content: center;
-}
-.card1 {
-/* Add shadows to create the "card" effect */
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-transition: 0.3s;
-width: 250px;
-height: 50vh; 
-padding: 10px;
-color: rgb(200, 218, 201);
-}
-/* On mouse-over, add a deeper shadow */
-.card1:hover {
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.card2 {
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-transition: 0.3s;
-width: 1200px;
-height: 90%;
-padding: 10px;
-}
-.card2:hover {
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-
-#seclabel {
-text-align: center;
-padding: 20px;
-color: rgb(200, 218, 201);
-font-size: 40;
-}
 
 
